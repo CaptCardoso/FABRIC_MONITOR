@@ -29,5 +29,5 @@ jobs:
 
     - name: Deploy via GCS
       run: |
-        gsutil -m rm -rf gs://fabric-monitor-bucket/* || echo "$?"
+        gsutil rm -r gs://fabric-monitor-bucket/*
         gsutil -m cp -r * gs://fabric-monitor-bucket/
