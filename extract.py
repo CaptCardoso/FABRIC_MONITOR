@@ -3,7 +3,7 @@ import json
 import pytz
 import logging
 from datetime import datetime, timedelta
-from fabric_monitor.shared_code.utils.helpers import setup_logging, check_if_path_exists
+from shared_code.utils.helpers import setup_logging, check_if_path_exists
 from google.cloud import storage
 
 # Create logger

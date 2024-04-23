@@ -5,7 +5,7 @@ import logging
 from datetime import datetime
 from delta.tables import DeltaTable
 from pyspark.sql.functions import col, explode_outer, explode
-from fabric_monitor.shared_code.utils.helpers import setup_logging
+from shared_code.utils.helpers import setup_logging
 
 try:
     import notebookutils.mssparkutils as utils

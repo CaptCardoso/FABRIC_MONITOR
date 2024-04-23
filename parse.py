@@ -1,7 +1,7 @@
 import logging
 from pyspark.sql.functions import expr
-from fabric_monitor.shared_code.fabric_monitor_udfs import FabricMonitorUDFs
-from fabric_monitor.shared_code.utils.helpers import setup_logging
+from shared_code.fabric_monitor_udfs import FabricMonitorUDFs
+from shared_code.utils.helpers import setup_logging
 
 # Create logger
 logger = logging.getLogger('ParsingService')
